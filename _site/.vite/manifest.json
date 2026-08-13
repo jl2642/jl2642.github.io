@@ -1,0 +1,235 @@
+{
+  "_framework-CXnKph_e.js": {
+    "file": "assets/framework-CXnKph_e.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_map-url-state-Cw3yUSt_.js": {
+    "file": "assets/map-url-state-Cw3yUSt_.js",
+    "name": "map-url-state",
+    "imports": [
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "app/components/chapter-catalog.tsx": {
+    "file": "assets/chapter-catalog-Dhvhb9Ui.js",
+    "name": "chapter-catalog",
+    "src": "app/components/chapter-catalog.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/hash-scroll-restorer.tsx": {
+    "file": "assets/hash-scroll-restorer-C5-7d86h.js",
+    "name": "hash-scroll-restorer",
+    "src": "app/components/hash-scroll-restorer.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/history-explorer.tsx": {
+    "file": "assets/history-explorer-CZpdKy9d.js",
+    "name": "history-explorer",
+    "src": "app/components/history-explorer.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "app/components/history-spoilers.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/history-spoilers.tsx": {
+    "file": "assets/history-spoilers-CIhsTuMH.js",
+    "name": "history-spoilers",
+    "src": "app/components/history-spoilers.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/map-atlas.tsx": {
+    "file": "assets/map-atlas-CQJ-eMRw.js",
+    "name": "map-atlas",
+    "src": "app/components/map-atlas.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_map-url-state-Cw3yUSt_.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "node_modules/maplibre-gl/dist/maplibre-gl.mjs",
+      "node_modules/pmtiles/dist/esm/index.js",
+      "node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"
+    ]
+  },
+  "app/components/reader-characters.tsx": {
+    "file": "assets/reader-characters-Dpaq05XS.js",
+    "name": "reader-characters",
+    "src": "app/components/reader-characters.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "node_modules/vinext/dist/shims/image.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/reader-disclosure.tsx": {
+    "file": "assets/reader-disclosure-_V5OPubm.js",
+    "name": "reader-disclosure",
+    "src": "app/components/reader-disclosure.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/reader-relations.tsx": {
+    "file": "assets/reader-relations-DlEpsZCI.js",
+    "name": "reader-relations",
+    "src": "app/components/reader-relations.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/reader-resume.tsx": {
+    "file": "assets/reader-resume-BDE4MXXN.js",
+    "name": "reader-resume",
+    "src": "app/components/reader-resume.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/reader-shell.tsx": {
+    "file": "assets/reader-shell-tXkRw8x_.js",
+    "name": "reader-shell",
+    "src": "app/components/reader-shell.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "app/components/site-header.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/reader-timeline.tsx": {
+    "file": "assets/reader-timeline-iEGMIUcn.js",
+    "name": "reader-timeline",
+    "src": "app/components/reader-timeline.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/site-header.tsx": {
+    "file": "assets/site-header-aE3WiPif.js",
+    "name": "site-header",
+    "src": "app/components/site-header.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/spatial-story-atlas.tsx": {
+    "file": "assets/spatial-story-atlas-ClQUxN74.js",
+    "name": "spatial-story-atlas",
+    "src": "app/components/spatial-story-atlas.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_map-url-state-Cw3yUSt_.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "node_modules/maplibre-gl/dist/maplibre-gl.mjs",
+      "node_modules/pmtiles/dist/esm/index.js",
+      "node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"
+    ]
+  },
+  "node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url": {
+    "file": "assets/maplibre-gl-worker-I-2f2xcF.js",
+    "name": "maplibre-gl-worker",
+    "src": "node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url",
+    "isDynamicEntry": true
+  },
+  "node_modules/maplibre-gl/dist/maplibre-gl.mjs": {
+    "file": "assets/maplibre-gl-9saep5lZ.js",
+    "name": "maplibre-gl",
+    "src": "node_modules/maplibre-gl/dist/maplibre-gl.mjs",
+    "isDynamicEntry": true
+  },
+  "node_modules/pmtiles/dist/esm/index.js": {
+    "file": "assets/esm-JZqT2l7C.js",
+    "name": "esm",
+    "src": "node_modules/pmtiles/dist/esm/index.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vinext/dist/shims/image.js": {
+    "file": "assets/image-BXgx9c9X.js",
+    "name": "image",
+    "src": "node_modules/vinext/dist/shims/image.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-e4EnyH3j.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-DQPU8WZI.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "app/components/reader-timeline.tsx",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/components/history-explorer.tsx",
+      "app/components/hash-scroll-restorer.tsx",
+      "app/components/site-header.tsx",
+      "virtual:vinext-app-browser-entry",
+      "app/components/reader-disclosure.tsx",
+      "app/components/history-spoilers.tsx",
+      "app/components/chapter-catalog.tsx",
+      "app/components/reader-characters.tsx",
+      "app/components/reader-shell.tsx",
+      "node_modules/vinext/dist/shims/image.js",
+      "app/components/spatial-story-atlas.tsx",
+      "app/components/reader-resume.tsx",
+      "app/components/map-atlas.tsx",
+      "app/components/reader-relations.tsx"
+    ]
+  }
+}

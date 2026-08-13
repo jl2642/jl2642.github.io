@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0.0",
+  "package_type": "NBW_PORTABLE_STATIC_BUILD",
+  "generated_at": "2026-08-13T09:03:45.044Z",
+  "canonical_source": {
+    "system": "CHATGPT_SITES",
+    "project": "nanbei-wangshi",
+    "commit": "9758ebfeeb7ec99e9261e7336822ab8a24352946"
+  },
+  "content_integrity": {
+    "manuscript_sha256": "b7f2a5562002309a3793fa7695d5cf5caf3e1cc796ab209eced823d5ed31d82c",
+    "character_data_sha256": "b65c022d82830e6f24cfb9d774a3019a0746357d97039a90d02c5667f4718b79",
+    "location_data_sha256": "9196745cf85c252712a4d9e21d2180bfcdf9447e81ba16bbef8fc95b8d4b272b",
+    "story_data_sha256": "00147ac69e1616905720a45565fe972d2153ffb307d1d0a3daaeb0d6e653a6e5",
+    "story_geometry_sha256": "2427a4ec15a062a4fa9804428d282e3c1940ea785c4a4b6fc5a5b1e46fa49154",
+    "illustration_manifest_sha256": "d552e0a6fc54f75eab3cb947b361e97dfaa6c13294cf7c562833a5d32e694570",
+    "output_asset_manifest": {
+      "file_count": 474,
+      "sha256": "b091bcd883a7b65f688bcd8b38ea6e7011910eac0348a8d1b52399166cec2106"
+    }
+  },
+  "build_target": "PORTABLE_STATIC_BUILD",
+  "deployment_target": "HOST_AGNOSTIC_STATIC",
+  "base_path": "/",
+  "route_strategy": "PRE_RENDERED_DIRECTORY_INDEX",
+  "runtime": "STATIC_FILES_ONLY",
+  "server_runtime_required": false,
+  "chatgpt_sites_runtime_required": false,
+  "external_runtime_dependencies": [],
+  "hosting_requirements": {
+    "directory_index": true,
+    "https": true,
+    "byte_range_requests": true,
+    "required_for_pmtiles": true
+  },
+  "routes": {
+    "canonical": [
+      "/",
+      "/about",
+      "/characters",
+      "/characters/person-01be2c962382",
+      "/characters/person-16529eb3d8d8",
+      "/characters/person-17d3c6bf93b6",
+      "/characters/person-1a34404a5835",
+      "/characters/person-1cb951fc36a2",
+      "/characters/person-370732156c9e",
+      "/characters/person-4c8b2590a7af",
+      "/characters/person-5841c37e51ba",
+      "/characters/person-6a730d3527cf",
+      "/characters/person-6ac5bea7bbe3",
+      "/characters/person-6bc3af482296",
+      "/characters/person-6bfb61826c8e",
+      "/characters/person-6d41d6772405",
+      "/characters/person-710fa1caf843",
+      "/characters/person-71892f171e7b",
+      "/characters/person-7ba7737650dd",
+      "/characters/person-7e852d60738f",
+      "/characters/person-87334b80da76",
+      "/characters/person-87806f8518e8",
+      "/characters/person-8a9b316b8c33",
+      "/characters/person-8bd26628ce25",
+      "/characters/person-95cb84e7cfae",
+      "/characters/person-964250d6d4c5",
+      "/characters/person-988b3db457ed",
+      "/characters/person-9a4f80b128ba",
+      "/characters/person-a249e5b7b07f",
+      "/characters/person-a41bdc928bec",
+      "/characters/person-aac7f6b70f24",
+      "/characters/person-af5fb4ed7c3c",
+      "/characters/person-ahe",
+      "/characters/person-b072eae78d6f",
+      "/characters/person-b8686f40215c",
+      "/characters/person-c2cd5eaa7866",
+      "/characters/person-d4c28fcb0a2f",
+      "/characters/person-d6bfe2b8a522",
+      "/characters/person-d720cfd9f507",
+      "/characters/person-d835add30b93",
+      "/characters/person-dabf0e628dd4",
+      "/characters/person-de77fd68090b",
+      "/characters/person-ea05b7f9495c",
+      "/characters/person-eb3d12933c9a",
+      "/characters/person-eb779c34fbc1",
+      "/characters/person-ecb12ce4d4a5",
+      "/characters/person-han-shizhong",
+      "/characters/person-qin-hui",
+      "/characters/person-wanyan-aguda",
+      "/characters/person-wanyan-dan",
+      "/characters/person-wanyan-liang",
+      "/characters/person-wanyan-sheng",
+      "/characters/person-wanyan-zongbi",
+      "/characters/person-wanyan-zongfu",
+      "/characters/person-wanyan-zonggan",
+      "/characters/person-wanyan-zonghan",
+      "/characters/person-wanyan-zongwang",
+      "/characters/person-yue-fei",
+      "/characters/person-zhao-gou",
+      "/genealogy",
+      "/history",
+      "/history/hf01_jurchen_names_society_and_marriage",
+      "/history/hf02_jin_succession_and_branches",
+      "/history/hf03_zongbi_name_age_and_image",
+      "/history/hf04_ahe_women_and_private_life",
+      "/history/hf05_liao_fall_and_sea_alliance",
+      "/history/hf06_jin_song_wars_jingkang_captivity",
+      "/history/hf07_south_expedition_and_huangtiandang",
+      "/history/hf08_northwest_front",
+      "/history/hf09_qi_buffer_and_henan_transfer",
+      "/history/hf10_1140_battles_and_victory_claims",
+      "/history/hf11_shaoxing_peace_and_yuefei",
+      "/history/hf12_jin_court_purges_and_1161",
+      "/map",
+      "/map/archive",
+      "/map/places/place-0077de480932",
+      "/map/places/place-33a7235000dd",
+      "/map/places/place-34dfeaf837e3",
+      "/map/places/place-376a2c554724",
+      "/map/places/place-407c0bc0c729",
+      "/map/places/place-4d0e4fa2cad5",
+      "/map/places/place-5ca468f50ff8",
+      "/map/places/place-6977beb952bb",
+      "/map/places/place-709043ee903b",
+      "/map/places/place-7798327f3c07",
+      "/map/places/place-81c9aaa04135",
+      "/map/places/place-85d19bf766e7",
+      "/map/places/place-b2e53be74053",
+      "/map/places/place-d2dba541c22b",
+      "/map/places/place-d413df74519a",
+      "/map/places/place-d94fb6cfac04",
+      "/map/places/place-e91d38e08a05",
+      "/map/places/place-e9f11cbbb2ab",
+      "/map/places/place-edb283d0c5a3",
+      "/map/places/place-edc6b649b7d7",
+      "/map/stories/M01_LIAO_CONQUEST",
+      "/map/stories/M02_FIRST_JIN_SONG_PARALLEL",
+      "/map/stories/M03_SOUTH_EXPEDITION_AND_RETREAT",
+      "/map/stories/M04_NORTHWEST_THEATER",
+      "/map/stories/M05_1140_CENTRAL_PLAINS",
+      "/map/stories/M06_CAPTIVES_NORTH",
+      "/read",
+      "/read/chapter-01",
+      "/read/chapter-01/part-1",
+      "/read/chapter-01/part-2",
+      "/read/chapter-02/part-1",
+      "/read/chapter-02/part-2",
+      "/read/chapter-03/part-1",
+      "/read/chapter-03/part-2",
+      "/read/chapter-04/part-1",
+      "/read/chapter-04/part-2",
+      "/read/chapter-05/part-1",
+      "/read/chapter-05/part-2",
+      "/read/chapter-06/part-1",
+      "/read/chapter-06/part-2",
+      "/read/chapter-07/part-1",
+      "/read/chapter-07/part-2",
+      "/read/chapter-08/part-1",
+      "/read/chapter-08/part-2",
+      "/read/chapter-09/part-1",
+      "/read/chapter-09/part-2",
+      "/read/chapter-10/part-1",
+      "/read/chapter-10/part-2",
+      "/read/chapter-11/part-1",
+      "/read/chapter-11/part-2",
+      "/read/chapter-12/part-1",
+      "/read/chapter-12/part-2",
+      "/read/chapter-13/part-1",
+      "/read/chapter-13/part-2",
+      "/read/chapter-14/part-1",
+      "/read/chapter-14/part-2",
+      "/read/chapter-15/part-1",
+      "/read/chapter-15/part-2",
+      "/read/chapter-16/part-1",
+      "/read/chapter-16/part-2",
+      "/read/chapter-17/part-1",
+      "/read/chapter-17/part-2",
+      "/read/chapter-18/part-1",
+      "/read/chapter-18/part-2",
+      "/read/chapter-19/part-1",
+      "/read/chapter-19/part-2",
+      "/read/chapter-20/part-1",
+      "/read/chapter-20/part-2",
+      "/read/chapter-21/part-1",
+      "/read/chapter-21/part-2",
+      "/read/chapter-22/part-1",
+      "/read/chapter-22/part-2",
+      "/read/chapter-23/part-1",
+      "/read/chapter-23/part-2",
+      "/read/chapter-24/part-1",
+      "/read/chapter-24/part-2",
+      "/read/chapter-25/part-1",
+      "/read/chapter-25/part-2",
+      "/read/chapter-26/part-1",
+      "/read/chapter-26/part-2",
+      "/read/chapter-27/part-1",
+      "/read/chapter-27/part-2",
+      "/read/chapter-28/part-1",
+      "/read/chapter-28/part-2",
+      "/read/chapter-29/part-1",
+      "/read/chapter-29/part-2",
+      "/read/chapter-30/part-1",
+      "/read/chapter-30/part-2",
+      "/read/chapter-31/part-1",
+      "/read/chapter-31/part-2",
+      "/read/chapter-32/part-1",
+      "/read/chapter-32/part-2",
+      "/read/chapter-33/part-1",
+      "/read/chapter-33/part-2",
+      "/read/chapter-34/part-1",
+      "/read/chapter-34/part-2",
+      "/read/chapter-35/part-1",
+      "/read/chapter-35/part-2",
+      "/read/chapter-36/part-1",
+      "/read/chapter-36/part-2",
+      "/read/chapter-37/part-1",
+      "/read/chapter-37/part-2",
+      "/read/chapter-38/part-1",
+      "/read/chapter-38/part-2",
+      "/read/chapter-39/part-1",
+      "/read/chapter-39/part-2",
+      "/read/chapter-40/part-1",
+      "/read/chapter-40/part-2",
+      "/read/chapter-41/part-1",
+      "/read/chapter-41/part-2",
+      "/read/chapter-42/part-1",
+      "/read/chapter-42/part-2",
+      "/read/chapter-43/part-1",
+      "/read/chapter-43/part-2",
+      "/read/chapter-44/part-1",
+      "/read/chapter-44/part-2",
+      "/read/chapter-45/part-1",
+      "/read/chapter-45/part-2",
+      "/read/chapter-46/part-1",
+      "/read/chapter-46/part-2",
+      "/read/chapter-47/part-1",
+      "/read/chapter-47/part-2",
+      "/read/chapter-48/part-1",
+      "/read/chapter-48/part-2",
+      "/read/chapter-49/part-1",
+      "/read/chapter-49/part-2",
+      "/read/chapter-50/part-1",
+      "/read/chapter-50/part-2",
+      "/read/epilogue",
+      "/read/preface",
+      "/timeline",
+      "/timeline/ahe-zongbi-marriage",
+      "/timeline/betrothal-ahe-zongbi",
+      "/timeline/bianliang-falls-1126",
+      "/timeline/bianliang-first-peace-1126",
+      "/timeline/bianliang-first-siege-1126",
+      "/timeline/captives-north-1127",
+      "/timeline/chuhe-1114",
+      "/timeline/dongjing-1116",
+      "/timeline/first-jin-song-war-1125",
+      "/timeline/fuping-1130",
+      "/timeline/gaozong-enthroned-1127",
+      "/timeline/hailing-coup-1149",
+      "/timeline/henan-transfer-1139",
+      "/timeline/heshangyuan-1131",
+      "/timeline/huanglong-1115",
+      "/timeline/huangtiandang-1130",
+      "/timeline/hubudagang-1115",
+      "/timeline/jin-enters-yanjing-1122",
+      "/timeline/jin-founded-1115",
+      "/timeline/jin-retakes-henan-1140",
+      "/timeline/jingkang-1127",
+      "/timeline/jurchen-uprising-1114",
+      "/timeline/liao-falls-1125",
+      "/timeline/liao-shangjing-1120",
+      "/timeline/liao-xijing-1122",
+      "/timeline/liao-zhongjing-1122",
+      "/timeline/ningjiang-1114",
+      "/timeline/peace-negotiation-1141",
+      "/timeline/qi-abolished-1137",
+      "/timeline/qi-founded-1130",
+      "/timeline/sea-alliance-1120",
+      "/timeline/second-jin-song-war-1126",
+      "/timeline/shaoxing-peace-1142",
+      "/timeline/shizong-enthroned-1161",
+      "/timeline/shunchang-1140",
+      "/timeline/song-yanjing-fails-1122",
+      "/timeline/south-expedition-1129",
+      "/timeline/story-opens-1106",
+      "/timeline/taiyuan-siege-1125",
+      "/timeline/taizong-succeeds-1123",
+      "/timeline/taizu-dies-1123",
+      "/timeline/wanyanheng-dies-1152",
+      "/timeline/xianrenguan-1134",
+      "/timeline/xizong-enthroned-1135",
+      "/timeline/yancheng-1140",
+      "/timeline/yingchang-1140",
+      "/timeline/yuefei-killed-1142",
+      "/timeline/zhangjue-defects-1123",
+      "/timeline/zongbi-dies-1148",
+      "/timeline/zongpan-purge-1139",
+      "/timeline/zongwang-dies-1127"
+    ],
+    "redirects": [
+      {
+        "route": "/archive",
+        "target": "/about"
+      },
+      {
+        "route": "/archive/characters",
+        "target": "/characters"
+      },
+      {
+        "route": "/archive/chronicle",
+        "target": "/timeline"
+      },
+      {
+        "route": "/archive/relations",
+        "target": "/genealogy"
+      },
+      {
+        "route": "/archive/research",
+        "target": "/history"
+      },
+      {
+        "route": "/archive/visual-anchors",
+        "target": "/characters"
+      },
+      {
+        "route": "/archive/visual-bible",
+        "target": "/characters"
+      },
+      {
+        "route": "/map/places/place-huining",
+        "target": "/map/places/place-4d0e4fa2cad5"
+      },
+      {
+        "route": "/map/places/place-bianliang",
+        "target": "/map/places/place-edb283d0c5a3"
+      },
+      {
+        "route": "/map/places/place-yanjing",
+        "target": "/map/places/place-d413df74519a"
+      },
+      {
+        "route": "/map/places/place-linan",
+        "target": "/map/places/place-7798327f3c07"
+      },
+      {
+        "route": "/map/places/place-huangtiandang",
+        "target": "/map/places/place-407c0bc0c729"
+      },
+      {
+        "route": "/map/places/place-fuping",
+        "target": "/map/places/place-0077de480932"
+      },
+      {
+        "route": "/map/places/place-heshangyuan",
+        "target": "/map/places/place-b2e53be74053"
+      },
+      {
+        "route": "/map/places/place-shunchang",
+        "target": "/map/places/place-709043ee903b"
+      },
+      {
+        "route": "/map/places/place-yancheng",
+        "target": "/map/places/place-edc6b649b7d7"
+      },
+      {
+        "route": "/map/places/place-liaoyang",
+        "target": "/map/places/place-d2dba541c22b"
+      },
+      {
+        "route": "/map/places/place-haigushui",
+        "target": "/map/places/place-1a0d6ef01df5"
+      },
+      {
+        "route": "/timeline/event-opening-1106",
+        "target": "/timeline/story-opens-1106"
+      },
+      {
+        "route": "/timeline/event-jurchen-uprising-1114",
+        "target": "/timeline/jurchen-uprising-1114"
+      },
+      {
+        "route": "/timeline/event-jin-founded-1115",
+        "target": "/timeline/jin-founded-1115"
+      },
+      {
+        "route": "/timeline/event-liao-falls-1125",
+        "target": "/timeline/liao-falls-1125"
+      },
+      {
+        "route": "/timeline/event-jingkang-1127",
+        "target": "/timeline/jingkang-1127"
+      },
+      {
+        "route": "/timeline/event-huangtiandang-1130",
+        "target": "/timeline/huangtiandang-1130"
+      },
+      {
+        "route": "/timeline/event-fuping-1130",
+        "target": "/timeline/fuping-1130"
+      },
+      {
+        "route": "/timeline/event-heshangyuan-1131",
+        "target": "/timeline/heshangyuan-1131"
+      },
+      {
+        "route": "/timeline/event-shunchang-1140",
+        "target": "/timeline/shunchang-1140"
+      },
+      {
+        "route": "/timeline/event-yancheng-1140",
+        "target": "/timeline/yancheng-1140"
+      },
+      {
+        "route": "/timeline/event-shaoxing-peace-1142",
+        "target": "/timeline/shaoxing-peace-1142"
+      },
+      {
+        "route": "/timeline/event-zongbi-dies-1148",
+        "target": "/timeline/zongbi-dies-1148"
+      },
+      {
+        "route": "/timeline/event-hailing-coup-1149",
+        "target": "/timeline/hailing-coup-1149"
+      },
+      {
+        "route": "/timeline/event-wanyan-yong-1161",
+        "target": "/timeline/shizong-enthroned-1161"
+      }
+    ],
+    "counts": {
+      "chapters": 100,
+      "people": 56,
+      "events": 51,
+      "core_places": 20,
+      "spatial_stories": 6,
+      "history_topics": 12,
+      "canonical_routes": 257,
+      "redirect_routes": 32
+    }
+  },
+  "critical_assets": {
+    "fonts/zcool-xiaowei-400.woff2": {
+      "bytes": 2194136,
+      "sha256": "f943c7337ff42159a70a21555604b8ae0e40599ecb1455b5c7b219f22642cff2"
+    },
+    "images/nanbei-hero.png": {
+      "bytes": 2004616,
+      "sha256": "b7c31fc59bdb64a74da9d2e275346832fe5348aef716e3555a762de79a227ade"
+    },
+    "maps/map-r2/nbw-mapterhorn-z0-6.pmtiles": {
+      "bytes": 19855992,
+      "sha256": "99d9d094a0a5e008ea882b08eef052cd655190db81924d0886fed0b91d8a42a5"
+    },
+    "maps/map-r2/nbw-protomaps-20260808-z0-8.pmtiles": {
+      "bytes": 23491660,
+      "sha256": "057f0fa5010365f06131fd36dd1e8f403c05c95417c93e8836f1ff2398a6303d"
+    },
+    "maps/map-r2/nbw-natural-earth-2-v3.2.0-104-131E-27-48N.webp": {
+      "bytes": 42434,
+      "sha256": "d4527d449c39cce4f3d91bc38f87d6aa2ef73e0e3f721e6fc4ab916735985403"
+    },
+    "maps/map-r2/ne-coastline.geojson": {
+      "bytes": 25917,
+      "sha256": "379dcb0f9b4aa48251aa2c0ef4fd6b3264bc5fc7caa579f75d3e14a0213c1761"
+    },
+    "maps/map-r2/ne-lakes.geojson": {
+      "bytes": 26006,
+      "sha256": "a58eb15a375df433251976ce20919b3ddc1236c3b25344a153df2c243aa6eef4"
+    },
+    "maps/map-r2/ne-land.geojson": {
+      "bytes": 25829,
+      "sha256": "958a395716bb968237f08ce8db1aa280ade40451fe874db5de898ba94f5f93bb"
+    },
+    "maps/map-r2/ne-rivers.geojson": {
+      "bytes": 20239,
+      "sha256": "2c612222ed3b8f65ccfe278d11710c4499623b639fd467afb897c69c4c77eda6"
+    }
+  },
+  "future_visual_asset_contract": {
+    "character_manifest": "content/knowledge/character-visual-assets.json",
+    "illustration_manifest": "content/illustrations/manifest.json",
+    "character_public_root": "/images/characters/",
+    "illustration_public_root": "/images/illustrations/",
+    "rule": "Only approved assets may be referenced by reader pages."
+  }
+}
