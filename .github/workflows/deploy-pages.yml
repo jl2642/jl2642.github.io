@@ -1,0 +1,54 @@
+name: Deploy CN Mirror
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out mirror artifact
+        uses: actions/checkout@v4
+
+      - name: Assemble and verify portable build
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat artifact/part-* > NBW_PORTABLE_STATIC_BUILD_R0_B2.tar.gz
+          echo "a9224f888300714c0a9cfe0e02db68fbf8caf4cd302c6d692644c8b7431566e9  NBW_PORTABLE_STATIC_BUILD_R0_B2.tar.gz" | sha256sum --check --strict
+          mkdir _site
+          tar -xzf NBW_PORTABLE_STATIC_BUILD_R0_B2.tar.gz -C _site
+          test -f _site/index.html
+          test -f _site/read/index.html
+          test -f _site/characters/index.html
+          test -f _site/map/index.html
+          test -f _site/NBW_PORTABLE_BUILD_MANIFEST.json
+          test -f _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
