@@ -28,6 +28,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          sha256sum --check --strict artifact/SHA256SUMS
           cat artifact/part-* > NBW_PORTABLE_STATIC_BUILD_R0_B2.tar.gz
           echo "a9224f888300714c0a9cfe0e02db68fbf8caf4cd302c6d692644c8b7431566e9  NBW_PORTABLE_STATIC_BUILD_R0_B2.tar.gz" | sha256sum --check --strict
           mkdir _site
