@@ -1,10 +1,10 @@
 # 南北往事｜CN Mirror Candidate
 
-This repository deploys the zero-cost GitHub Pages candidate for 《南北往事》.
+This repository deploys the zero-cost GitHub Pages mirror for 《南北往事》.
 
 - Canonical source: ChatGPT Site project `nanbei-wangshi`
-- Portable source commit: `9758ebfeeb7ec99e9261e7336822ab8a24352946`
-- Portable artifact SHA-256: `a9224f888300714c0a9cfe0e02db68fbf8caf4cd302c6d692644c8b7431566e9`
+- Portable source commit: `9ee9efd4f0dbbca084759144a999f931e056a4e1`
+- Current v43 mirror delta SHA-256: `456ee7f568d81f55283c33e087e496fb26e65832715509ba7ab2950c61fbdcbb`
 - Runtime: static files only
 - Paid services: none
 
