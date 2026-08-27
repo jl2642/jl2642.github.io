@@ -1,26 +1,7 @@
 {
   "schema_version": "1.0.0",
   "package_type": "NBW_PORTABLE_STATIC_BUILD",
-  "generated_at": "2026-08-13T09:03:45.044Z",
-  "canonical_source": {
-    "system": "CHATGPT_SITES",
-    "project": "nanbei-wangshi",
-    "commit": "9758ebfeeb7ec99e9261e7336822ab8a24352946"
-  },
-  "content_integrity": {
-    "manuscript_sha256": "b7f2a5562002309a3793fa7695d5cf5caf3e1cc796ab209eced823d5ed31d82c",
-    "character_data_sha256": "b65c022d82830e6f24cfb9d774a3019a0746357d97039a90d02c5667f4718b79",
-    "location_data_sha256": "9196745cf85c252712a4d9e21d2180bfcdf9447e81ba16bbef8fc95b8d4b272b",
-    "story_data_sha256": "00147ac69e1616905720a45565fe972d2153ffb307d1d0a3daaeb0d6e653a6e5",
-    "story_geometry_sha256": "2427a4ec15a062a4fa9804428d282e3c1940ea785c4a4b6fc5a5b1e46fa49154",
-    "illustration_manifest_sha256": "d552e0a6fc54f75eab3cb947b361e97dfaa6c13294cf7c562833a5d32e694570",
-    "output_asset_manifest": {
-      "file_count": 474,
-      "sha256": "b091bcd883a7b65f688bcd8b38ea6e7011910eac0348a8d1b52399166cec2106"
-    }
-  },
-  "build_target": "PORTABLE_STATIC_BUILD",
-  "deployment_target": "HOST_AGNOSTIC_STATIC",
+  "generated_at": "2026-08-27T01:46:37.496Z",
   "base_path": "/",
   "route_strategy": "PRE_RENDERED_DIRECTORY_INDEX",
   "runtime": "STATIC_FILES_ONLY",
@@ -364,7 +345,7 @@
       },
       {
         "route": "/map/places/place-haigushui",
-        "target": "/map/places/place-1a0d6ef01df5"
+        "target": "/map?place=place-1a0d6ef01df5#place-place-1a0d6ef01df5"
       },
       {
         "route": "/timeline/event-opening-1106",

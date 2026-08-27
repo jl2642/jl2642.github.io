@@ -28,7 +28,7 @@
     ]
   },
   "app/components/hash-scroll-restorer.tsx": {
-    "file": "assets/hash-scroll-restorer-C5-7d86h.js",
+    "file": "assets/hash-scroll-restorer-BwJjckG1.js",
     "name": "hash-scroll-restorer",
     "src": "app/components/hash-scroll-restorer.tsx",
     "isDynamicEntry": true,
@@ -60,7 +60,7 @@
     ]
   },
   "app/components/map-atlas.tsx": {
-    "file": "assets/map-atlas-CQJ-eMRw.js",
+    "file": "assets/map-atlas-DPmuB5ZV.js",
     "name": "map-atlas",
     "src": "app/components/map-atlas.tsx",
     "isDynamicEntry": true,
@@ -77,7 +77,7 @@
     ]
   },
   "app/components/reader-characters.tsx": {
-    "file": "assets/reader-characters-Dpaq05XS.js",
+    "file": "assets/reader-characters-CD1T1ch6.js",
     "name": "reader-characters",
     "src": "app/components/reader-characters.tsx",
     "isDynamicEntry": true,
@@ -118,7 +118,7 @@
     ]
   },
   "app/components/reader-shell.tsx": {
-    "file": "assets/reader-shell-tXkRw8x_.js",
+    "file": "assets/reader-shell-KzpRYi8L.js",
     "name": "reader-shell",
     "src": "app/components/reader-shell.tsx",
     "isDynamicEntry": true,
@@ -139,7 +139,7 @@
     ]
   },
   "app/components/site-header.tsx": {
-    "file": "assets/site-header-aE3WiPif.js",
+    "file": "assets/site-header-DM2d13xP.js",
     "name": "site-header",
     "src": "app/components/site-header.tsx",
     "isDynamicEntry": true,
@@ -149,7 +149,7 @@
     ]
   },
   "app/components/spatial-story-atlas.tsx": {
-    "file": "assets/spatial-story-atlas-ClQUxN74.js",
+    "file": "assets/spatial-story-atlas-BN43-pmb.js",
     "name": "spatial-story-atlas",
     "src": "app/components/spatial-story-atlas.tsx",
     "isDynamicEntry": true,
@@ -194,7 +194,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-e4EnyH3j.js",
+    "file": "assets/layout-segment-context-Dc0mrniD.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -205,7 +205,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DQPU8WZI.js",
+    "file": "assets/index-CFL_LEha.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
