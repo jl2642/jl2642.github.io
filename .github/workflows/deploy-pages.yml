@@ -1,59 +1,10 @@
-name: Publish CN Mirror
-
+name: Deprecated v43 mirror publisher
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: write
-
-concurrency:
-  group: cn-mirror-publish
-  cancel-in-progress: false
-
 jobs:
-  publish:
-    if: github.actor != 'github-actions[bot]'
+  superseded:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out mirror repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Verify and apply v43 portable delta
-        shell: bash
-        run: |
-          set -euo pipefail
-          cat release/v43-delta-parts/part-* > /tmp/NBW_V43_MIRROR_DELTA.tar.gz
-          echo "456ee7f568d81f55283c33e087e496fb26e65832715509ba7ab2950c61fbdcbb  /tmp/NBW_V43_MIRROR_DELTA.tar.gz" | sha256sum --check --strict
-          while IFS= read -r generated_file; do
-            [[ -z "${generated_file}" ]] && continue
-            git rm -f --ignore-unmatch -- "${generated_file}"
-          done < release/NBW_V43_MIRROR_DELETE_PATHS.txt
-          tar -xzf /tmp/NBW_V43_MIRROR_DELTA.tar.gz -C .
-          touch .nojekyll
-          test -f index.html
-          test -f about/index.html
-          test -f read/preface/index.html
-          test -f map/index.html
-          test -f map/places/place-haigushui/index.html
-          grep -Fq '一个家族如何进入历史' about/index.html
-          grep -Fq '本站由 ChatGPT 基于完整小说原稿进行阅读、结构化分析与网站开发' about/index.html
-          ! grep -Fq '资料整理、交叉链接和部分初步校对使用了 AI 辅助工具' about/index.html
-          grep -Fq '/map?place=place-1a0d6ef01df5#place-place-1a0d6ef01df5' map/places/place-haigushui/index.html
-
-      - name: Commit verified mirror files
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No mirror change to publish."
-            exit 0
-          fi
-          git commit -m "Publish verified v43 CN mirror"
-          git push origin HEAD:main
+      - name: Report superseded workflow
+        run: echo "Superseded by the Step 9 R4 direct portable deployment."
