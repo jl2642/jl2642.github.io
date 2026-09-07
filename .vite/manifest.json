@@ -6,8 +6,8 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_map-url-state-Cw3yUSt_.js": {
-    "file": "assets/map-url-state-Cw3yUSt_.js",
+  "_map-url-state-zxDYUkdE.js": {
+    "file": "assets/map-url-state-zxDYUkdE.js",
     "name": "map-url-state",
     "imports": [
       "_framework-CXnKph_e.js"
@@ -27,8 +27,18 @@
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/components/contact-form.tsx": {
+    "file": "assets/contact-form-DqCfv06g.js",
+    "name": "contact-form",
+    "src": "app/components/contact-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/components/hash-scroll-restorer.tsx": {
-    "file": "assets/hash-scroll-restorer-BwJjckG1.js",
+    "file": "assets/hash-scroll-restorer-_c25-43R.js",
     "name": "hash-scroll-restorer",
     "src": "app/components/hash-scroll-restorer.tsx",
     "isDynamicEntry": true,
@@ -39,7 +49,7 @@
     ]
   },
   "app/components/history-explorer.tsx": {
-    "file": "assets/history-explorer-CZpdKy9d.js",
+    "file": "assets/history-explorer-O_8ekUmn.js",
     "name": "history-explorer",
     "src": "app/components/history-explorer.tsx",
     "isDynamicEntry": true,
@@ -50,7 +60,7 @@
     ]
   },
   "app/components/history-spoilers.tsx": {
-    "file": "assets/history-spoilers-CIhsTuMH.js",
+    "file": "assets/history-spoilers-02nMetAJ.js",
     "name": "history-spoilers",
     "src": "app/components/history-spoilers.tsx",
     "isDynamicEntry": true,
@@ -60,14 +70,14 @@
     ]
   },
   "app/components/map-atlas.tsx": {
-    "file": "assets/map-atlas-DPmuB5ZV.js",
+    "file": "assets/map-atlas-93YIqVTi.js",
     "name": "map-atlas",
     "src": "app/components/map-atlas.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_map-url-state-Cw3yUSt_.js",
+      "_map-url-state-zxDYUkdE.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -77,7 +87,7 @@
     ]
   },
   "app/components/reader-characters.tsx": {
-    "file": "assets/reader-characters-CD1T1ch6.js",
+    "file": "assets/reader-characters-Cx134ac9.js",
     "name": "reader-characters",
     "src": "app/components/reader-characters.tsx",
     "isDynamicEntry": true,
@@ -88,7 +98,7 @@
     ]
   },
   "app/components/reader-disclosure.tsx": {
-    "file": "assets/reader-disclosure-_V5OPubm.js",
+    "file": "assets/reader-disclosure-BT7aJOkk.js",
     "name": "reader-disclosure",
     "src": "app/components/reader-disclosure.tsx",
     "isDynamicEntry": true,
@@ -98,7 +108,7 @@
     ]
   },
   "app/components/reader-relations.tsx": {
-    "file": "assets/reader-relations-DlEpsZCI.js",
+    "file": "assets/reader-relations-GRdLJxzU.js",
     "name": "reader-relations",
     "src": "app/components/reader-relations.tsx",
     "isDynamicEntry": true,
@@ -108,7 +118,7 @@
     ]
   },
   "app/components/reader-resume.tsx": {
-    "file": "assets/reader-resume-BDE4MXXN.js",
+    "file": "assets/reader-resume-CvJMeFXP.js",
     "name": "reader-resume",
     "src": "app/components/reader-resume.tsx",
     "isDynamicEntry": true,
@@ -118,7 +128,7 @@
     ]
   },
   "app/components/reader-shell.tsx": {
-    "file": "assets/reader-shell-KzpRYi8L.js",
+    "file": "assets/reader-shell-C0JOWjHw.js",
     "name": "reader-shell",
     "src": "app/components/reader-shell.tsx",
     "isDynamicEntry": true,
@@ -129,7 +139,7 @@
     ]
   },
   "app/components/reader-timeline.tsx": {
-    "file": "assets/reader-timeline-iEGMIUcn.js",
+    "file": "assets/reader-timeline-Cb1aa_jR.js",
     "name": "reader-timeline",
     "src": "app/components/reader-timeline.tsx",
     "isDynamicEntry": true,
@@ -139,7 +149,7 @@
     ]
   },
   "app/components/site-header.tsx": {
-    "file": "assets/site-header-DM2d13xP.js",
+    "file": "assets/site-header-BYdmbpOR.js",
     "name": "site-header",
     "src": "app/components/site-header.tsx",
     "isDynamicEntry": true,
@@ -149,14 +159,14 @@
     ]
   },
   "app/components/spatial-story-atlas.tsx": {
-    "file": "assets/spatial-story-atlas-BN43-pmb.js",
+    "file": "assets/spatial-story-atlas-a8s9smSW.js",
     "name": "spatial-story-atlas",
     "src": "app/components/spatial-story-atlas.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_map-url-state-Cw3yUSt_.js",
+      "_map-url-state-zxDYUkdE.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -166,25 +176,25 @@
     ]
   },
   "node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url": {
-    "file": "assets/maplibre-gl-worker-I-2f2xcF.js",
+    "file": "assets/maplibre-gl-worker-C7KGhiiv.js",
     "name": "maplibre-gl-worker",
     "src": "node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url",
     "isDynamicEntry": true
   },
   "node_modules/maplibre-gl/dist/maplibre-gl.mjs": {
-    "file": "assets/maplibre-gl-9saep5lZ.js",
+    "file": "assets/maplibre-gl-DkOywaks.js",
     "name": "maplibre-gl",
     "src": "node_modules/maplibre-gl/dist/maplibre-gl.mjs",
     "isDynamicEntry": true
   },
   "node_modules/pmtiles/dist/esm/index.js": {
-    "file": "assets/esm-JZqT2l7C.js",
+    "file": "assets/esm-BULxqbcJ.js",
     "name": "esm",
     "src": "node_modules/pmtiles/dist/esm/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/image.js": {
-    "file": "assets/image-BXgx9c9X.js",
+    "file": "assets/image-Cm3oQkH9.js",
     "name": "image",
     "src": "node_modules/vinext/dist/shims/image.js",
     "isDynamicEntry": true,
@@ -194,7 +204,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-Dc0mrniD.js",
+    "file": "assets/layout-segment-context-DvmxEnSl.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -205,7 +215,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CFL_LEha.js",
+    "file": "assets/index-DtEBfhBN.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -214,6 +224,7 @@
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
+      "app/components/contact-form.tsx",
       "app/components/reader-timeline.tsx",
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/components/history-explorer.tsx",

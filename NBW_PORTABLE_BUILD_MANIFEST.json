@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "package_type": "NBW_PORTABLE_STATIC_BUILD",
-  "generated_at": "2026-09-03T15:42:03.895Z",
+  "generated_at": "2026-09-07T14:38:31.720Z",
   "base_path": "/",
   "route_strategy": "PRE_RENDERED_DIRECTORY_INDEX",
   "runtime": "STATIC_FILES_ONLY",
@@ -75,6 +75,7 @@
       "/characters/person-wanyan-zongwang",
       "/characters/person-yue-fei",
       "/characters/person-zhao-gou",
+      "/contact",
       "/genealogy",
       "/history",
       "/history/hf01_jurchen_names_society_and_marriage",
@@ -412,7 +413,7 @@
       "core_places": 20,
       "spatial_stories": 6,
       "history_topics": 12,
-      "canonical_routes": 258,
+      "canonical_routes": 259,
       "redirect_routes": 32
     }
   },
